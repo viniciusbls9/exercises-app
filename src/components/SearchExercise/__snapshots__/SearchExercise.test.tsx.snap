@@ -1,0 +1,33 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ExerciseSearch > renders the text and input field 1`] = `
+<div>
+  <div
+    class="sc-aXZVg bouHrP"
+  >
+    <div
+      class="sc-gEvEer iHaQaB"
+    >
+      <h2
+        class="sc-eqUAAy kVCmHi"
+      >
+        Find your exercises
+      </h2>
+      <div
+        class="sc-fqkvVR dKFVrM"
+      >
+        <input
+          class="sc-dcJsrY cafawp"
+          placeholder="Enter your exercise"
+          type="text"
+        />
+        <button
+          class="sc-iGgWBj hCngai"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

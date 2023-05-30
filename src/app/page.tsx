@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Banner />
       <SearchExercise />
-      <Card icon={<Activity />} text="text 1" />
+      <Card icon={<Activity alt="Card Icon" />} text="text 1" />
     </>
   )
 }

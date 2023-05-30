@@ -6,7 +6,7 @@ import Menu from './';
 
 describe('Menu', () => {
   it('renders logo and links', () => {
-    render(<Menu />);
+    const { container } = render(<Menu />);
 
     const logo = screen.getByAltText('Logo');
     expect(logo).toBeInTheDocument();
@@ -17,5 +17,6 @@ describe('Menu', () => {
 
     const exercisesLink = screen.getByText('Exercises');
     expect(exercisesLink).toBeInTheDocument();
+    expect(container).toMatchSnapshot()
   });
 });

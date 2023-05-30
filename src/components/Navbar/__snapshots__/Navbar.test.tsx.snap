@@ -1,0 +1,35 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Menu > renders logo and links 1`] = `
+<div>
+  <div
+    class="sc-aXZVg eULosh"
+  >
+    <div
+      class="sc-gEvEer gpdSm"
+    >
+      <img
+        alt="Logo"
+        class="sc-eqUAAy fqZEnF"
+        src="/logo.png"
+      />
+      <div
+        class="sc-fqkvVR dKFVrM"
+      >
+        <a
+          class="sc-dcJsrY kERCCE"
+          href="#"
+        >
+          Home
+        </a>
+        <a
+          class="sc-dcJsrY kERCCE"
+          href="#"
+        >
+          Exercises
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

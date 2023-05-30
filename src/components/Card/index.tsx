@@ -1,4 +1,3 @@
-import React, { ReactNode } from 'react';
 import * as Styles from './styles'
 
 interface CardProps {

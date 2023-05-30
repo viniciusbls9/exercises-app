@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Banner > renders the title and subtitle 1`] = `
+<div>
+  <div
+    class="sc-aXZVg glTeJL"
+  >
+    <div
+      class="sc-gEvEer gTBZHK"
+    />
+    <div
+      class="sc-eqUAAy dFgdfx"
+    >
+      <h1
+        class="sc-fqkvVR bCLAlm"
+      >
+        Find your favorite exercises
+      </h1>
+      <p
+        class="sc-dcJsrY dfLJtu"
+      >
+        Discover amazing content and more
+      </p>
+    </div>
+  </div>
+</div>
+`;
