@@ -1,4 +1,4 @@
-import * as Styles from './styles'
+import * as Styles from './styled'
 
 interface CardProps {
   icon: JSX.Element
