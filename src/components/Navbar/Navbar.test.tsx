@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 
 import Menu from './';
@@ -8,7 +8,6 @@ describe('Menu', () => {
   it('renders logo and links', () => {
     render(<Menu />);
 
-    // Check if the logo is rendered
     const logo = screen.getByAltText('Logo');
     expect(logo).toBeInTheDocument();
 

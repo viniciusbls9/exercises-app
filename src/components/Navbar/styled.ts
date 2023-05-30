@@ -5,7 +5,7 @@ export const Menu = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 40px;
+  padding: 20px 30px;
   background-color: #f0f0f0;
 `;
 
@@ -14,7 +14,7 @@ export const MenuContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1460px;
   margin: 0 auto;
 `;
 
