@@ -16,7 +16,7 @@ export const BackgroundImage = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 70%;
+  height: 100%;
   background-image: url('/young-fitness-man-studio.jpg');
   background-size: cover;
   background-position: center;
@@ -24,7 +24,7 @@ export const BackgroundImage = styled.div`
 
 export const TextOverlay = styled.div`
   position: absolute;
-  top: 35%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
