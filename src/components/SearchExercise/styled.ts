@@ -4,13 +4,13 @@ export const ContainerSearchExercise = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 30px;
+  padding: 30px 10px;
 `;
 
 export const Text = styled.h2`
   font-size: 24px;
   margin-bottom: 10px;
+  text-align: center;
 `;
 
 export const InputContainer = styled.div`

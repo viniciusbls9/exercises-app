@@ -34,6 +34,21 @@ export const Anchor = styled(Link)`
   position: relative;
   transition: all 0.2s ease-in-out;
 
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #000;
+    transition: width 0.3s;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+
   &:hover {
     border-bottom: 2px solid #000;
   }

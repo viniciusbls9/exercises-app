@@ -8,4 +8,5 @@ export const Container = styled.div`
   padding: 20px 30px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 `;
