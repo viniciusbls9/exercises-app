@@ -1,15 +1,14 @@
 "use client";
 import Banner from "@/components/Banner";
-import Card from "@/components/Card";
+import CarouselExercises from "@/components/CarouselExercises";
 import SearchExercise from "@/components/SearchExercise";
-import { Activity } from '@phosphor-icons/react'
 
 export default function Home() {
   return (
     <>
       <Banner />
       <SearchExercise />
-      <Card icon={<Activity alt="Card Icon" />} text="text 1" />
+      <CarouselExercises />
     </>
   )
 }
